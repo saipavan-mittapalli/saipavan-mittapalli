@@ -118,6 +118,7 @@
   border: none;
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .btn-secondary {
@@ -129,6 +130,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .btn-primary:hover {

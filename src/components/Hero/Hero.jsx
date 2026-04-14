@@ -14,16 +14,16 @@ const Hero = () => {
            <span className="gradient-text">Sai Pavan Mittapalli</span> 
         </h1>
         
-        <h2 className="hero-tagline">Web Developer </h2>
+        <h2 className="hero-tagline">Freelance Web Developer </h2>
         
         <p className="hero-desc">
-          I build high-performance web applications and digital strategies 
+          I build high-performance web applications  
           that help businesses stand out in the modern market.
         </p>
         
         <div className="hero-btns">
-          <button className="btn-primary">View My Work</button>
-          <button className="btn-secondary">Contact Me</button>
+          <a href="#work" className="btn-primary">View My Work</a>
+          <a href="#contact" className="btn-secondary">Let's Talk</a>
         </div>
       </div>
     </section>

@@ -6,20 +6,23 @@ const Work = () => {
       id: 1,
       title: "Prunith Architects",
       category: "Architect",
+      image: "../src/assets/prunitharchitect.png",
       description: "A minimalist portfolio for a leading architectural firm.",
       link: "https://prunith-arch.vercel.app/"
     },
     {
       id: 2,
-      title: "Coming Soon...",
-      category: "Cloud Solution",
-      description: "Cloud-based management for streamlined business operations.",
-      link: "#work"
+      title: "M Pharmacy Foodcourt",
+      category: "Foodcourt",
+      image: "../src/assets/mpharmacyfoodcourt.png",
+      description: "A vibrant website for a popular food court, showcasing menus and promotions.",
+      link: "https://mpharmacy-foodcourt.vercel.app/"
     },
     {
       id: 3,
       title: "Coming Soon...",
       category: "Vlogging",
+      image: "",
       description: "Content strategy and growth for financial education brands.",
       link: "#work"
     }

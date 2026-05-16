@@ -22,7 +22,7 @@ const Work = () => {
       id: 3,
       title: "Coming Soon...",
       category: "Vlogging",
-      image: "",
+      image: "../src/assets/prunitharchitect.png",
       description: "Content strategy and growth for financial education brands.",
       link: "#work"
     }
@@ -31,7 +31,7 @@ const Work = () => {
   return (
     <section className="work-section" id="work">
       <div className="work-container">
-        <h2 className="section-title">Selected <span className="gradient-text">Work</span></h2>
+        <h2 className="section-title"><span className="gradient-text">Work</span></h2>
         
         <div className="projects-grid">
           {projects.map((project) => (

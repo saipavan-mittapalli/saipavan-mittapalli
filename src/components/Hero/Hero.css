@@ -142,3 +142,8 @@
   background: rgba(255, 255, 255, 0.1);
   border-color: #ffffff;
 }
+@media (max-width: 768px) {
+  .hero-btns{
+    font-size: 0.8rem;
+  }
+}

@@ -1,12 +1,12 @@
-import React, { useState } from 'react'; // Fix 1: Added import
+import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const [result, setResult] = useState(""); // Simplified from React.useState
+  const [result, setResult] = useState(""); 
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending...."); // Give user immediate feedback
+    setResult("Sending....");
 
     const formData = new FormData(event.target);
     formData.append("access_key", "4f64be14-1174-471f-935d-ef0d3ab9bad7");
@@ -23,10 +23,9 @@ const Contact = () => {
         setResult("Sent Successfully");
         event.target.reset();
 
-        // Clears the message after 7 seconds (per your logic)
         setTimeout(() => {
           setResult("");
-        }, 7000); 
+        }, 10000); 
       } else {
         console.log("Error", data);
         setResult(data.message);
@@ -69,7 +68,7 @@ const Contact = () => {
           <div className="contact-info">
             <div className="info-item">
               <span>Email</span>
-              <p>mittapallisaipavan@gmail.com</p>
+              <p>teampavanandco@gmail.com</p>
             </div>
             <div className="info-item">
               <span>Location</span>

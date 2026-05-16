@@ -1,6 +1,6 @@
 .skills-section {
   padding: 100px 10%;
-  background: #050505;
+  background: #000000;
 }
 
 .skills-container {
@@ -16,16 +16,16 @@
 }
 
 .skills-category {
-  background: linear-gradient(145deg, #0a0a0a, #111);
+  background: rgba(255, 255, 255, 0.081);
   padding: 40px;
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.268);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .skills-category:hover {
   border-color: rgba(37, 99, 235, 0.4);
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 

@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'nav-scrolled' : ''}`}>
       <div className="nav-container">
-        <div className="nav-logo">PAVAN<span>.</span></div>
+        <div className="nav-logo">PAVAN & Co<span>.</span></div>
         
         {/* Toggle Button for Mobile */}
         <div className={`nav-hamburger ${isOpen ? 'active' : ''}`} onClick={() => setIsOpen(!isOpen)}>

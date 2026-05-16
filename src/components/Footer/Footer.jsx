@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-top">
           <div className="footer-brand">
-            <div className="nav-logo">PAVAN<span>.</span></div>
+            <div className="nav-logo">PAVAN & Co<span>.</span></div>
             <p>Crafting digital experiences with purpose and precision.</p>
           </div>
           

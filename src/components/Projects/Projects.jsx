@@ -1,11 +1,12 @@
 import React from "react";
 import "./Projects.css";
-
+import prunithArchitectImg from "../../assets/prunitharchitect.png";
+import foodCourtImg from "../../assets/mpharmacyfoodcourt.png";
 const projects = [
   {
     id: 1,
     thumbnail:
-      "./src/assets/prunitharchitect.png",
+      prunithArchitectImg,
     category: "Architecture & Design",
     title: "Prunith Architects",
     description:
@@ -15,7 +16,7 @@ const projects = [
   {
     id: 2,
     thumbnail:
-      "./src/assets/mpharmacyfoodcourt.png",
+      foodCourtImg,
     category: "FOOD COURT",
     title: "M Pharmacy Food Court",
     description:
